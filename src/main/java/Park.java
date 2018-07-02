@@ -1,7 +1,17 @@
-public class Park extends Attraction {
+public class Park extends Attraction implements ISecurity {
 
-    public Park(String name){
+    protected int ageLimit;
+
+    public Park(String name, int ageLimit){
         super(name);
+        this.ageLimit = ageLimit;
     }
 
+    @Override
+    public boolean isAllowedTo(Visitor guest) {
+         if (guest.age < this.ageLimit){
+             return false;
+         } return true;
+
+    }
 }
