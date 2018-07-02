@@ -41,5 +41,13 @@ public class ThemeParkTest {
         assertEquals(2,themePark.reviewedCount());
     }
 
+    @Test
+    public void canClearList(){
+        themePark.addReviewed(beertent);
+        themePark.addReviewed(dodgems);
+        themePark.clear();
+        assertEquals(0,themePark.reviewedCount());
+    }
+
 
 }

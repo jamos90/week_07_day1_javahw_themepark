@@ -15,4 +15,8 @@ public class ThemePark {
     public void addReviewed(IReviewed object) {
         this.reviewed.add(object);
     }
+
+    public void clear(){
+        this.reviewed.clear();
+    }
 }
