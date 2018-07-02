@@ -12,4 +12,7 @@ public class ThemePark {
     }
 
 
+    public void addReviewed(IReviewed object) {
+        this.reviewed.add(object);
+    }
 }

@@ -6,14 +6,27 @@ import static org.junit.Assert.assertEquals;
 public class ThemeParkTest {
 
     ThemePark themePark;
+    BeerTent beertent;
+    Dodgems dodgems;
 
     @Before
     public void SetUp(){
         themePark = new ThemePark();
+        beertent = new BeerTent("Veer Tent","Mr Smith",3,18,4);
+       dodgems = new Dodgems("Dodgems",3);
+
     }
 
     @Test
     public void listStatsEmpty(){
         assertEquals(0, themePark.reviewedCount());
     }
+
+    @Test
+    public void canAddToList(){
+        themePark.addReviewed(dodgems);
+        assertEquals(1,themePark.reviewedCount());
+    }
+
+    @
 }
