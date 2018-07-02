@@ -10,4 +10,7 @@ public abstract class Stall {
     }
 
 
+    public String getName() {
+        return this.name;
+    }
 }
