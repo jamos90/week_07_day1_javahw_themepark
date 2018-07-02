@@ -7,9 +7,17 @@ public class BeerTent extends Stall implements ISecurity {
         this.ageLimit = ageLimit;
     }
 
+    public boolean isOldEnough(Visitor visitor){
+        if (visitor.getAge() >= this.ageLimit){
+            return true;
+        }
+        return false;
+    }
+
+
     @Override
     public boolean isAllowedTo(Visitor guest) {
-        if ( guest.age < this.ageLimit) {
+        if (isOldEnough(guest)) {
             return false;
         }
         return true;
