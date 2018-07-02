@@ -19,4 +19,12 @@ public class ThemePark {
     public void clear(){
         this.reviewed.clear();
     }
+
+    public ArrayList<IReviewed> reviewList(){
+        ArrayList<IReviewed> review_list= new ArrayList<>();
+        for (IReviewed reviews : this.reviewed){
+            review_list.add(reviews);
+        }
+        return review_list;
+    }
 }
