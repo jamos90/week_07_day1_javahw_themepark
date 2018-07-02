@@ -28,5 +28,11 @@ public class ThemeParkTest {
         assertEquals(1,themePark.reviewedCount());
     }
 
-    @
+    @Test
+    public void canAddStallToList(){
+        themePark.addReviewed(beertent);
+        assertEquals(1,themePark.reviewedCount());
+    }
+
+
 }
