@@ -34,5 +34,12 @@ public class ThemeParkTest {
         assertEquals(1,themePark.reviewedCount());
     }
 
+    @Test
+    public void canAddBothToList(){
+        themePark.addReviewed(beertent);
+        themePark.addReviewed(dodgems);
+        assertEquals(2,themePark.reviewedCount());
+    }
+
 
 }
