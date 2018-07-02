@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4974b54a-1791-489f-b1bb-f4eba80815ee" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/RollarcoasterTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Attraction.java" afterPath="$PROJECT_DIR$/src/main/java/Attraction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Dodgems.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/DodgemsTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,15 +50,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RollarcoasterTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RollarcoasterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RollarcoasterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dodgems.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dodgems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding>
+                <element signature="e#78#79#0" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DodgemsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DodgemsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -425,6 +454,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Rollarcoaster.java" />
         <option value="$PROJECT_DIR$/src/test/java/RollarcoasterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Attraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dodgems.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DodgemsTest.java" />
       </list>
     </option>
   </component>
@@ -508,7 +539,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RollarcoasterTest.hasName">
+  <component name="RunManager" selected="JUnit.DodgemsTest.hasName">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -528,6 +559,26 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="DodgemsTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ThemeParkHw_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DodgemsTest" />
+      <option name="METHOD_NAME" value="hasName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="RollarcoasterTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -609,26 +660,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="VisitorTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ThemeParkHw_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VisitorTest" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -690,19 +721,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasName" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasAge" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasHeight" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasMoney" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RollarcoasterTest.hasName" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasAge" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasHeight" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasMoney" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RollarcoasterTest.hasName" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DodgemsTest.hasName" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RollarcoasterTest.hasName" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasMoney" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasHeight" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasAge" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasName" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DodgemsTest.hasName" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RollarcoasterTest.hasName" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasMoney" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasHeight" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.VisitorTest.hasAge" />
       </list>
     </recent_temporary>
   </component>
@@ -723,6 +754,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="RollarcoasterTest_hasName - 2018.07.02 at 15h 48m 34s.xml">
+      <configuration name="RollarcoasterTest.hasName" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="VisitorTest_hasAge - 2018.07.02 at 15h 41m 11s.xml">
       <configuration name="VisitorTest.hasAge" configurationId="JUnit" />
     </history-entry>
@@ -859,8 +893,33 @@
           <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dodgems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DodgemsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
