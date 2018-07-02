@@ -11,7 +11,7 @@ public class RollarcoasterTest {
 
     @Before
     public void setUp(){
-        rollarcoaster = new Rollarcoaster("Oblivion",12,140);
+        rollarcoaster = new Rollarcoaster("Oblivion",4,12,150);
         visitor = new Visitor("James",18,180,40);
         visitor2 = new Visitor("Alan",10,100,40);
         visitor3 = new Visitor("Alan",18,100,40);
@@ -41,7 +41,11 @@ public class RollarcoasterTest {
     @Test
     public void cannotRideIfOverAgeButTooSmall(){
         assertEquals(false,rollarcoaster.isAllowedTo(visitor3));
+    }
 
+    @Test
+    public void canGetRating(){
+        assertEquals(4,rollarcoaster.getRating());
     }
 
 }

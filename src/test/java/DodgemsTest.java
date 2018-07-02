@@ -9,7 +9,7 @@ public class DodgemsTest {
 
     @Before
     public void setUp(){
-        dodgems = new Dodgems("Red Shell Attack");
+        dodgems = new Dodgems("Red Shell Attack", 3);
     }
 
     @Test
