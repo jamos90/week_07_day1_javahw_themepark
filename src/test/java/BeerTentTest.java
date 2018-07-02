@@ -9,7 +9,7 @@ public class BeerTentTest {
 
     @Before
     public void setUP(){
-        beerTent = new BeerTent("Brauhaus","Heir Hanz",45);
+        beerTent = new BeerTent("Brauhaus","Heir Hanz",45,18);
     }
 
     @Test

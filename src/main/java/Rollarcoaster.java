@@ -30,4 +30,8 @@ public class Rollarcoaster extends Attraction implements ISecurity {
         }
         return false;
     }
+
+    public int getMinAge() {
+        return this.ageLimit;
+    }
 }
