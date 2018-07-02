@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ThemeParkHw.iml" filepath="$PROJECT_DIR$/.idea/modules/ThemeParkHw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ThemeParkHw_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ThemeParkHw_main.iml" group="ThemeParkHw" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ThemeParkHw_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ThemeParkHw_test.iml" group="ThemeParkHw" />
+    </modules>
+  </component>
+</project>
