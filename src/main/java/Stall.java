@@ -13,4 +13,12 @@ public abstract class Stall {
     public String getName() {
         return this.name;
     }
+
+    public String getOwner() {
+        return this.owner;
+    }
+
+    public int getParkingSpot() {
+        return this.parkingSpot;
+    }
 }

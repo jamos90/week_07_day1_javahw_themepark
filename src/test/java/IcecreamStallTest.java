@@ -16,4 +16,15 @@ public class IcecreamStallTest {
     public void hasName(){
         assertEquals("Lucas", icecreamStall.getName());
     }
+
+    @Test
+    public void hasOwner(){
+        assertEquals("Mr Luca", icecreamStall.getOwner());
+    }
+
+    @Test
+    public void hasParkingSpot(){
+        assertEquals(23, icecreamStall.getParkingSpot());
+    }
+
 }
